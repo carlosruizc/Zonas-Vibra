@@ -1,0 +1,138 @@
+VARIABLE,DESCRIPCIÓN,INCLUIR
+COD_DANE_A,"Código de manzana concatenado (departamento, municipio, clase, sector rural, sección rural, zona urbana, sector urbano, sección urbana y manzana)",
+DPTO_CCDGO,Código del departamento,
+MPIO_CCDGO,Código del municipio,
+MPIO_CDPMP,Código concatenado que identifica al municipio,
+CLAS_CCDGO,"Código de la clase 1 cabecera municipal, 2 centro poblado y 3 área resto municipal",
+SETR_CCDGO,Código de sector rural,
+SETR_CCNCT,"Código de sector rural concatenado (departamento, municipio, clase y sector rural)",
+SECR_CCDGO,Código de sección rural,
+SECR_CCNCT,"Código de sección rural  concatenado (departamento, municipio, clase, sector rural y  sección rural)",
+ZU_CCDGO,Código zona urbana (cabecera municipal y centro poblado),
+ZU_CDIVI,"Código zona urbana  concatenado (departamento, municipio y zona urbana)",
+SETU_CCDGO,Código sector urbano,
+SETU_CCNCT,"Código sector concatenado (departamento, municipio, clase, sector rural, sección rural, zona urbana y sector rural)",
+SECU_CCDGO,Código sección urbana,
+SECU_CCNCT,"Código sección urbana concatenado (departamento, municipio, clase, sector rural, sección rural, zona urbana, sector urbano y sección urbana)",
+MANZ_CCDGO,Código de manzana,
+AG_CCDGO,Código Área Geográfica AG,
+DATO_ANM,Nombre capa anonimizada,
+VERSION,Año de la información geográfica,
+AREA,Área de la manzana en metros cuadrados  (Sistema de coordenadas planas MAGNA_Colombia_Bogota),
+LATITUD,Coordenada de latitud centroide de la manzana,
+LONGITUD,Coordenada de longitud centroide de la manzana,
+DENSIDAD,Número promedio de habitantes en la manzana que viven sobre una unidad de superficie (m2),
+CTNENCUEST,Cantidad de Encuestas CNPV 2018,
+TP3_1_SI,Cantidad de encuestas que reportaron estar en territorio étnico,
+TP3_2_NO,Cantidad de encuestas que reportaron no estar en territorio étnico,
+TP3A_RI,Cantidad de encuestas que reportaron estar en territorio étnico Resguardo indígena,
+TP3B_TCN,Cantidad de encuestas que reportaron estar en territorio étnico Territorio colectivo de comunidades negras,
+TP4_1_SI,Cantidad de encuestas que reportaron estar en áreas protegidas,
+TP4_2_NO,Cantidad de encuestas que reportaron no estar en áreas protegidas,
+TUNIDADES,Total de unidades,
+TP9_1_USO,Conteo de unidades con uso vivienda,
+PORC_VIVIENDA,Porcentaje de unidades con uso vivienda,SI
+PORC_OTROSUSOS,Porcentaje de unidades con uso diferente a vivienda,SI
+TP9_2_USO,Conteo de unidades con uso mixto,
+TP9_3_USO,Conteo de unidades con uso no residencial,
+TP9_4_USO,Conteo de unidades con uso LEA,
+TP9_2_1_MI,Conteo de unidades mixtas con uso no residencial industria,
+TP9_2_2_MI,Conteo de unidades mixtas con uso no residencial comercio,
+TP9_2_3_MI,Conteo de unidades mixtas con uso no residencial servicios,
+TP9_2_4_MI,"Conteo de unidades mixtas con uso no residencial agropecuario, agroindustrial, forestal",
+TP9_2_9_MI,Conteo de unidades mixtas con uso no residencial sin información,
+TP9_3_1_NO,Conteo de unidades no residénciales con uso Industria,
+TP9_3_2_NO,Conteo de unidades no residénciales con uso Comercio,
+TP9_3_3_NO,Conteo de unidades no residénciales con uso Servicios,
+TP9_3_4_NO,"Conteo de unidades no residénciales con uso Agropecuario, Agroindustrial, Forestal",
+TP9_3_5_NO,Conteo de unidades no residénciales con uso Institucional,
+TP9_3_6_NO,Conteo de unidades no residénciales con uso Lote (Unidad sin construcción),
+TP9_3_7_NO,Conteo de unidades no residénciales con uso Parque/Zona Verde,
+TP9_3_8_NO,Conteo de unidades no residénciales con uso Minero-Energético,
+TP9_3_9_NO,Conteo de unidades no residénciales con uso Protección/Conservación ambiental,
+TP9_3_10_N,Conteo de unidades no residénciales con uso En Construcción,
+TP9_3_99_N,Conteo de unidades no residénciales con uso Sin información,
+TVIVIENDA,Conteo de viviendas,
+TP14_1_TIP,Conteo de viviendas tipo Casa,
+TP14_2_TIP,Conteo de viviendas tipo Apartamento,
+TP14_3_TIP,Conteo de viviendas tipo Tipo cuarto,
+TP14_4_TIP,Conteo de viviendas tipo Vivienda tradicional Indígena,
+TP14_5_TIP,"Conteo de viviendas tipo Vivienda tradicional étnica (Afrocolombiana, Isleña, Rrom)",
+TP14_6_TIP,"Conteo de viviendas tipo Otro (contenedor, carpa, embarcación, vagón, cueva, refugio natural, etc.)",
+TP15_1_OCU,Conteo de viviendas Ocupada con personas presentes,
+TP15_2_OCU,Conteo de viviendas Ocupada con todas las personas ausentes,
+TP15_3_OCU,"Conteo de viviendas Vivienda  temporal (para vacaciones, trabajo etc.)",
+TP15_4_OCU,Conteo de viviendas Desocupada,
+TP16_HOG,Conteo de hogares,
+TP19_EE_1,Conteo de viviendas con energía eléctrica,
+PORC_ENERGIA,Porcentaje de viviendas con energía eléctrica,SI
+TP19_EE_2,Conteo de viviendas sin energía eléctrica,
+TP19_EE_E1,Conteo de viviendas que reportan recibir facturación de energía eléctrica en Estrato 1,
+TP19_EE_E2,Conteo de viviendas que reportan recibir facturación de energía eléctrica en Estrato 2,
+TP19_EE_E3,Conteo de viviendas que reportan recibir facturación de energía eléctrica en Estrato 3,
+TP19_EE_E4,Conteo de viviendas que reportan recibir facturación de energía eléctrica en Estrato 4,
+TP19_EE_E5,Conteo de viviendas que reportan recibir facturación de energía eléctrica en Estrato 5,
+TP19_EE_E6,Conteo de viviendas que reportan recibir facturación de energía eléctrica en Estrato 6,
+PORC_E1,Porcentaje de viviendas en Estrato 1,SI
+PORC_E2,Porcentaje de viviendas en Estrato 2,SI
+PORC_E3,Porcentaje de viviendas en Estrato 3,SI
+PORC_E4,Porcentaje de viviendas en Estrato 4,SI
+PORC_E5,Porcentaje de viviendas en Estrato 5,SI
+PORC_E6,Porcentaje de viviendas en Estrato 6,SI
+TP19_EE_E9,Conteo de viviendas que reportan recibir facturación de energía eléctrica en No sabe o no tiene estrato,
+TP19_ACU_1,Conteo de viviendas con servicio de acueducto,
+PORC_ACUE,Porcentaje de viviendas con servicio de acueducto,SI
+PORC_ALC,Porcentaje de viviendas con servicio de alcantarillado,SI
+PORC_GAS,Porcentaje de viviendas con servicio de gas natural conectado a red pública,SI
+PORC_INTE,Porcentaje de viviendas con servicio de recolección de basuras,SI
+PORC_BAS,Porcentaje de viviendas con servicio de internet,SI
+TP19_ACU_2,Conteo de viviendas sin servicio de acueducto,
+TP19_ALC_1,Conteo de viviendas con servicio de alcantarillado,
+TP19_ALC_2,Conteo de viviendas sin servicio de alcantarillado,
+TP19_GAS_1,Conteo de viviendas con servicio de gas natural conectado a red pública,
+TP19_GAS_2,Conteo de viviendas sin servicio de gas natural conectado a red pública,
+TP19_GAS_9,Conteo de viviendas sin información de servicio de gas natural conectado a red pública,
+TP19_RECB1,Conteo de viviendas con servicio de recolección de basuras,
+TP19_RECB2,Conteo de viviendas sin servicio de recolección de basuras,
+TP19_INTE1,Conteo de viviendas con servicio de internet,
+TP19_INTE2,Conteo de viviendas sin servicio de internet,
+TP19_INTE9,Conteo de viviendas sin información de servicio de internet,
+TP27_PERSO,Número de personas,SI
+PERSONAS_L,Conteo de personas en LEAS,
+PERSONAS_S,Conteo de personas en hogares particulares,
+TP32_1_SEX,Conteo de hombres,
+TP32_2_SEX,Conteo de mujeres,
+PORC_H,Porcentaje de hombres,SI
+PORC_M,Porcentaje de mujeres,SI
+TP34_1_EDA,Conteo de personas entre 0 - 9 años,
+TP34_2_EDA,Conteo de personas entre 10 - 19 años,
+TP34_3_EDA,Conteo de personas entre 20 - 29 años,
+TP34_4_EDA,Conteo de personas entre 30 - 39 años,
+TP34_5_EDA,Conteo de personas entre 40 - 49 años,
+TP34_6_EDA,Conteo de personas entre 50 - 59 años,
+TP34_7_EDA,Conteo de personas entre 60 - 69 años,
+TP34_8_EDA,Conteo de personas entre 70 - 79 años,
+TP34_9_EDA,Conteo de personas entre 80  y más años,
+TP51PRIMAR,Conteo de personas donde el nivel educativo del último año alcanzado es Preescolar - Pre jardín y Básica primaria,
+TP51SECUND,Conteo de personas donde el nivel educativo del último año alcanzado es Básica secundaria 3...6,
+TP51SUPERI,Conteo de personas donde el nivel educativo del último año alcanzado es Técnica profesional 1 año  7...9,
+TP51POSTGR,Conteo de personas donde el nivel educativo del último año alcanzado es Especialización 1 año…maestría doctorado,
+TP51_13_ED,Conteo de personas donde el nivel educativo del último año alcanzado es Ninguno,
+TP51_99_ED,Conteo de personas donde el nivel educativo del último año alcanzado es Sin información,
+PORC_0_9,Porcentaje de personas entre 0 - 9 años,SI
+PORC_10_19,Porcentaje de personas entre 10 - 19 años,SI
+PORC_20_29,Porcentaje de personas entre 20 - 29 años,SI
+PORC_30_39,Porcentaje de personas entre 30 - 39 años,SI
+PORC_40_49,Porcentaje de personas entre 40 - 49 años,SI
+PORC_50_59,Porcentaje de personas entre 50 - 59 años,SI
+PORC_60_69,Porcentaje de personas entre 60 - 69 años,SI
+PORC_70_79,Porcentaje de personas entre 70 - 79 años,SI
+PORC_80,Porcentaje de personas entre 80  y más años,SI
+PORC_PREE,Porcentaje de personas donde el nivel educativo del último año alcanzado es Preescolar - Pre jardín y Básica primaria,SI
+PORC_SEC,Porcentaje de personas donde el nivel educativo del último año alcanzado es Básica secundaria 3...6,SI
+PORC_0_TP,Porcentaje de personas donde el nivel educativo del último año alcanzado es Técnica profesional 1 año  7...9,SI
+PORC_POST,Porcentaje de personas donde el nivel educativo del último año alcanzado es Postgrado,SI
+PORC_NIN,Porcentaje de personas donde el nivel educativo del último año alcanzado es Ninguno,SI
+CD_LC_CM,Código de la localidad o comuna,
+NMB_LC_CM,Nombre de la localidad o comuna,
+TP_LC_CM,Descripción de tipo localidad o comuna o corregimiento,
